@@ -48,7 +48,7 @@ function App() {
   };
 
   const clearInput = () => {
-    setText("");
+    setText(" ");
   };
 
   return (
