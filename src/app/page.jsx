@@ -4,8 +4,8 @@ import QRCode from "qrcode";
 import { QrCode, Github, Download, X } from "lucide-react";
 
 function App() {
-  const [text, setText] = useState("");
-  const [qrCodeDataURL, setQrCodeDataURL] = useState("WelcomeTO GenZQR.com");
+  const [text, setText] = useState("Enter your Text or Url ..... ");
+  const [qrCodeDataURL, setQrCodeDataURL] = useState("");
   const [dataSize, setDataSize] = useState(0);
 
   useEffect(() => {
