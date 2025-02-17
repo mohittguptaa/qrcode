@@ -4,7 +4,7 @@ import QRCode from "qrcode";
 import { QrCode, Github, Download, X } from "lucide-react";
 
 function App() {
-  const [text, setText] = useState("Enter URL or text");
+  const [text, setText] = useState("");
   const [qrCodeDataURL, setQrCodeDataURL] = useState("");
   const [dataSize, setDataSize] = useState(0);
 
